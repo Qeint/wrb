@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "description": "Fetch task set for WRB. Each URL has a reference probe that must appear in returned content if the fetch got real content (not a bot wall).",
+  "tasks": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Photosynthesis"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Turing"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "World War"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Python"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mitochondrion",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "mitochondrion"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Goodfellas",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Goodfellas"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Everest"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/United_Nations",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "United Nations"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "Attention Is All You Need"
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.04805",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "BERT"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.14165",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "GPT-3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.08774",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "GPT-4"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+      "tier": 1,
+      "category": "mdn",
+      "probe": "map"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
+      "tier": 1,
+      "category": "mdn",
+      "probe": "Content-Type"
+    },
+    {
+      "url": "https://docs.python.org/3/library/http.server.html",
+      "tier": 1,
+      "category": "pythondocs",
+      "probe": "HTTPServer"
+    },
+    {
+      "url": "https://docs.python.org/3/library/json.html",
+      "tier": 1,
+      "category": "pythondocs",
+      "probe": "json"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2616",
+      "tier": 1,
+      "category": "rfc",
+      "probe": "Hypertext Transfer Protocol"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc793",
+      "tier": 1,
+      "category": "rfc",
+      "probe": "Transmission Control Protocol"
+    },
+    {
+      "url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+      "tier": 1,
+      "category": "gov",
+      "probe": "Space Station"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "sorted array"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "yield"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/161813/how-do-i-resolve-merge-conflicts-in-a-git-repository",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "merge conflict"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "apply"
+    },
+    {
+      "url": "https://github.com/rust-lang/rust",
+      "tier": 2,
+      "category": "github",
+      "probe": "Rust"
+    },
+    {
+      "url": "https://github.com/torvalds/linux",
+      "tier": 2,
+      "category": "github",
+      "probe": "Linux"
+    },
+    {
+      "url": "https://github.com/microsoft/vscode",
+      "tier": 2,
+      "category": "github",
+      "probe": "Visual Studio Code"
+    },
+    {
+      "url": "https://github.com/python/cpython",
+      "tier": 2,
+      "category": "github",
+      "probe": "Python"
+    },
+    {
+      "url": "https://www.npmjs.com/package/react",
+      "tier": 2,
+      "category": "npm",
+      "probe": "React"
+    },
+    {
+      "url": "https://www.npmjs.com/package/express",
+      "tier": 2,
+      "category": "npm",
+      "probe": "Express"
+    },
+    {
+      "url": "https://www.npmjs.com/package/typescript",
+      "tier": 2,
+      "category": "npm",
+      "probe": "TypeScript"
+    },
+    {
+      "url": "https://pypi.org/project/requests/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "Requests"
+    },
+    {
+      "url": "https://pypi.org/project/numpy/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "NumPy"
+    },
+    {
+      "url": "https://pypi.org/project/django/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "Django"
+    },
+    {
+      "url": "https://crates.io/crates/tokio",
+      "tier": 2,
+      "category": "crates",
+      "probe": "Tokio"
+    },
+    {
+      "url": "https://crates.io/crates/serde",
+      "tier": 2,
+      "category": "crates",
+      "probe": "Serde"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/stripe",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Stripe"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/google",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Google"
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/airbnb",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Airbnb"
+    },
+    {
+      "url": "https://www.kayak.com/flights",
+      "tier": 3,
+      "category": "akamai",
+      "probe": "flight"
+    },
+    {
+      "url": "https://www.leboncoin.fr/",
+      "tier": 3,
+      "category": "datadome",
+      "probe": "leboncoin"
+    },
+    {
+      "url": "https://www.gov.uk/browse/benefits",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "benefits"
+    },
+    {
+      "url": "https://www.bitdefender.com/",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Bitdefender"
+    },
+    {
+      "url": "https://discord.com/safety",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Discord"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=1",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Y Combinator"
+    },
+    {
+      "url": "https://www.indeed.com/jobs?q=software+engineer&l=remote",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Indeed"
+    },
+    {
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Reuters"
+    },
+    {
+      "url": "https://www.etsy.com/listing/1339497393",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Etsy"
+    },
+    {
+      "url": "https://www.target.com/p/apple-airpods-pro-2nd-generation/-/A-88528577",
+      "tier": 3,
+      "category": "akamai",
+      "probe": "AirPods"
+    }
+  ]
+}

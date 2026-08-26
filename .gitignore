@@ -1,0 +1,18 @@
+# Private working docs
+project.md
+status.md
+
+# Results (don't commit run outputs)
+results/
+*_results.json
+wrb_*_results.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

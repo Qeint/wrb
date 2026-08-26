@@ -1,0 +1,589 @@
+{
+  "version": "1.0",
+  "description": "Search task set for WRB. Each query has expected domains and answer snippets that should appear in results.",
+  "tasks": [
+    {
+      "query": "what is the speed of light in vacuum",
+      "niche": "science",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "299,792,458",
+        "speed of light"
+      ]
+    },
+    {
+      "query": "what is photosynthesis in biology",
+      "niche": "science",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "query": "what is the chemical formula for water",
+      "niche": "science",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "H2O"
+      ]
+    },
+    {
+      "query": "how many bones in the human body",
+      "niche": "science",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "206"
+      ]
+    },
+    {
+      "query": "what is the powerhouse of the cell",
+      "niche": "science",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "mitochondria"
+      ]
+    },
+    {
+      "query": "who was the first president of the United States",
+      "niche": "history",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "George Washington"
+      ]
+    },
+    {
+      "query": "when did World War 2 end",
+      "niche": "history",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "1945"
+      ]
+    },
+    {
+      "query": "who wrote the Declaration of Independence",
+      "niche": "history",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "query": "what caused the fall of the Roman Empire",
+      "niche": "history",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Roman Empire"
+      ]
+    },
+    {
+      "query": "when was the Berlin Wall built",
+      "niche": "history",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "1961"
+      ]
+    },
+    {
+      "query": "what is a transformer model in machine learning",
+      "niche": "technology",
+      "expected_domains": [
+        "wikipedia.org",
+        "arxiv.org"
+      ],
+      "answer_snippets": [
+        "transformer"
+      ]
+    },
+    {
+      "query": "who created the World Wide Web",
+      "niche": "technology",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Tim Berners-Lee"
+      ]
+    },
+    {
+      "query": "what does CPU stand for",
+      "niche": "technology",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Central Processing Unit"
+      ]
+    },
+    {
+      "query": "what is the difference between HTTP and HTTPS",
+      "niche": "technology",
+      "expected_domains": [
+        "wikipedia.org",
+        "developer.mozilla.org"
+      ],
+      "answer_snippets": [
+        "TLS",
+        "SSL",
+        "encrypted"
+      ]
+    },
+    {
+      "query": "what is open source software",
+      "niche": "technology",
+      "expected_domains": [
+        "wikipedia.org",
+        "opensource.org"
+      ],
+      "answer_snippets": [
+        "open source"
+      ]
+    },
+    {
+      "query": "what is the capital of Australia",
+      "niche": "geography",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Canberra"
+      ]
+    },
+    {
+      "query": "what is the largest desert in the world",
+      "niche": "geography",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Antarctic",
+        "Sahara"
+      ]
+    },
+    {
+      "query": "what is the longest river in the world",
+      "niche": "geography",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Nile",
+        "Amazon"
+      ]
+    },
+    {
+      "query": "what country has the most population",
+      "niche": "geography",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "China",
+        "India"
+      ]
+    },
+    {
+      "query": "what is the smallest country in the world",
+      "niche": "geography",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Vatican City"
+      ]
+    },
+    {
+      "query": "how many players on a soccer team",
+      "niche": "sports",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "11"
+      ]
+    },
+    {
+      "query": "who won the first World Cup",
+      "niche": "sports",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Uruguay"
+      ]
+    },
+    {
+      "query": "how long is a marathon in kilometers",
+      "niche": "sports",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "42.195",
+        "42.2"
+      ]
+    },
+    {
+      "query": "what sport is played at Wimbledon",
+      "niche": "sports",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "tennis"
+      ]
+    },
+    {
+      "query": "how many periods in hockey",
+      "niche": "sports",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "3",
+        "three"
+      ]
+    },
+    {
+      "query": "who directed the movie Inception",
+      "niche": "entertainment",
+      "expected_domains": [
+        "wikipedia.org",
+        "imdb.com"
+      ],
+      "answer_snippets": [
+        "Christopher Nolan"
+      ]
+    },
+    {
+      "query": "what year did Titanic come out",
+      "niche": "entertainment",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "1997"
+      ]
+    },
+    {
+      "query": "who plays Iron Man in the MCU",
+      "niche": "entertainment",
+      "expected_domains": [
+        "wikipedia.org",
+        "imdb.com"
+      ],
+      "answer_snippets": [
+        "Robert Downey"
+      ]
+    },
+    {
+      "query": "what is the highest grossing movie of all time",
+      "niche": "entertainment",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Avatar"
+      ]
+    },
+    {
+      "query": "who wrote the Harry Potter books",
+      "niche": "entertainment",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "J.K. Rowling",
+        "Rowling"
+      ]
+    },
+    {
+      "query": "what is the normal blood pressure range",
+      "niche": "health",
+      "expected_domains": [
+        "wikipedia.org",
+        "nih.gov",
+        "cdc.gov"
+      ],
+      "answer_snippets": [
+        "120/80"
+      ]
+    },
+    {
+      "query": "what vitamin is produced by sunlight",
+      "niche": "health",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "vitamin D"
+      ]
+    },
+    {
+      "query": "how many hours of sleep do adults need",
+      "niche": "health",
+      "expected_domains": [
+        "wikipedia.org",
+        "cdc.gov"
+      ],
+      "answer_snippets": [
+        "7",
+        "8",
+        "7-9"
+      ]
+    },
+    {
+      "query": "what is the largest organ in the human body",
+      "niche": "health",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "skin"
+      ]
+    },
+    {
+      "query": "what causes diabetes type 2",
+      "niche": "health",
+      "expected_domains": [
+        "wikipedia.org",
+        "nih.gov"
+      ],
+      "answer_snippets": [
+        "insulin",
+        "blood sugar"
+      ]
+    },
+    {
+      "query": "who founded Amazon",
+      "niche": "business",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Jeff Bezos"
+      ]
+    },
+    {
+      "query": "what is the stock market",
+      "niche": "business",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "stock market",
+        "stock exchange"
+      ]
+    },
+    {
+      "query": "what does GDP stand for",
+      "niche": "business",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Gross Domestic Product"
+      ]
+    },
+    {
+      "query": "who is the CEO of Apple",
+      "niche": "business",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Tim Cook"
+      ]
+    },
+    {
+      "query": "what is cryptocurrency",
+      "niche": "business",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "cryptocurrency",
+        "digital currency"
+      ]
+    },
+    {
+      "query": "what is the rarest element on Earth",
+      "niche": "niche",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "astatine",
+        " francium"
+      ]
+    },
+    {
+      "query": "how deep is the Mariana Trench",
+      "niche": "niche",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "10,994",
+        "11,000",
+        "36,000"
+      ]
+    },
+    {
+      "query": "what is the oldest known language",
+      "niche": "niche",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Sumerian",
+        "Tamil",
+        "Egyptian"
+      ]
+    },
+    {
+      "query": "what is the deepest lake in the world",
+      "niche": "niche",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Baikal"
+      ]
+    },
+    {
+      "query": "what is the most spoken language in the world",
+      "niche": "niche",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "English",
+        "Mandarin",
+        "Chinese"
+      ]
+    },
+    {
+      "query": "what is a mutex in concurrent programming",
+      "niche": "programming",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "mutex"
+      ]
+    },
+    {
+      "query": "what is the difference between SQL and NoSQL",
+      "niche": "programming",
+      "expected_domains": [
+        "wikipedia.org",
+        "mongodb.com"
+      ],
+      "answer_snippets": [
+        "SQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "query": "what is garbage collection in programming",
+      "niche": "programming",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "garbage collection"
+      ]
+    },
+    {
+      "query": "what is the halting problem",
+      "niche": "programming",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "halting problem",
+        "Turing"
+      ]
+    },
+    {
+      "query": "what is a B-tree data structure",
+      "niche": "programming",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "B-tree"
+      ]
+    },
+    {
+      "query": "who wrote Romeo and Juliet",
+      "niche": "arts",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Shakespeare"
+      ]
+    },
+    {
+      "query": "who painted The Starry Night",
+      "niche": "arts",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Van Gogh"
+      ]
+    },
+    {
+      "query": "what instrument has 88 keys",
+      "niche": "arts",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "piano"
+      ]
+    },
+    {
+      "query": "who composed the Four Seasons",
+      "niche": "arts",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Vivaldi"
+      ]
+    },
+    {
+      "query": "who wrote The Great Gatsby",
+      "niche": "arts",
+      "expected_domains": [
+        "wikipedia.org"
+      ],
+      "answer_snippets": [
+        "Fitzgerald"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "description": "Crawl task set for WRB. Each target has a seed URL, focus topic, and known-relevant URLs that should be discovered.",
+  "tasks": [
+    {
+      "seed_url": "https://docs.python.org/3/library/",
+      "focus": "http",
+      "max_pages": 30,
+      "known_relevant": [
+        "https://docs.python.org/3/library/http.html",
+        "https://docs.python.org/3/library/http.server.html",
+        "https://docs.python.org/3/library/http.client.html",
+        "https://docs.python.org/3/library/http.cookies.html",
+        "https://docs.python.org/3/library/http.cookiejar.html",
+        "https://docs.python.org/3/library/urllib.request.html",
+        "https://docs.python.org/3/library/urllib.parse.html",
+        "https://docs.python.org/3/library/urllib.error.html"
+      ]
+    },
+    {
+      "seed_url": "https://doc.rust-lang.org/book/",
+      "focus": "ownership",
+      "max_pages": 20,
+      "known_relevant": [
+        "https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html",
+        "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html",
+        "https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html",
+        "https://doc.rust-lang.org/book/ch04-03-slices.html",
+        "https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html"
+      ]
+    },
+    {
+      "seed_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "focus": "cache",
+      "max_pages": 30,
+      "known_relevant": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Age",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires"
+      ]
+    },
+    {
+      "seed_url": "https://www.rfc-editor.org/",
+      "focus": "HTTP",
+      "max_pages": 20,
+      "known_relevant": [
+        "https://www.rfc-editor.org/rfc/rfc2616",
+        "https://www.rfc-editor.org/rfc/rfc7230",
+        "https://www.rfc-editor.org/rfc/rfc7231",
+        "https://www.rfc-editor.org/rfc/rfc7232",
+        "https://www.rfc-editor.org/rfc/rfc7233",
+        "https://www.rfc-editor.org/rfc/rfc7234",
+        "https://www.rfc-editor.org/rfc/rfc7235",
+        "https://www.rfc-editor.org/rfc/rfc9110",
+        "https://www.rfc-editor.org/rfc/rfc9112"
+      ]
+    },
+    {
+      "seed_url": "https://blog.rust-lang.org/",
+      "focus": "security",
+      "max_pages": 20,
+      "known_relevant": [
+        "https://blog.rust-lang.org/2023/01/10/cve-2022-46176/",
+        "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+        "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+        "https://blog.rust-lang.org/2026/03/21/cve-2026-33056/",
+        "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/"
+      ]
+    }
+  ]
+}

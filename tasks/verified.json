@@ -1,0 +1,370 @@
+{
+  "verified": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Photosynthesis",
+      "ref_snippet": "# Photosynthesis - Wikipedia Contributors to W",
+      "latency_ms": 742
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Turing",
+      "ref_snippet": "orn | Alan Mathison Turing \u00b7 (1912-06-23)23 June 1912 \u00b7",
+      "latency_ms": 710
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_War_II",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "World War",
+      "ref_snippet": "# World War II - Wikipedia Contributors t",
+      "latency_ms": 788
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Python",
+      "ref_snippet": "sum | | Developer | Python Software Foundation | | First",
+      "latency_ms": 680
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mitochondrion",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "mitochondrion",
+      "ref_snippet": "e body below)* A **mitochondrion** (pl.**mitochondria**) is an",
+      "latency_ms": 682
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Goodfellas",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Goodfellas",
+      "ref_snippet": "icle body below)* *Goodfellas* (stylized as *GoodFellas*) i",
+      "latency_ms": 628
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "Everest",
+      "ref_snippet": "cial definition for Everest) | | Isolation | n/a | | List",
+      "latency_ms": 735
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/United_Nations",
+      "tier": 1,
+      "category": "wikipedia",
+      "probe": "United Nations",
+      "ref_snippet": "Headquarters | 760 United Nations Plaza, Manhattan, New York Ci",
+      "latency_ms": 645
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "Attention Is All You Need",
+      "ref_snippet": "# Attention Is All You Need arXiv.org https://arxiv.org/a",
+      "latency_ms": 410
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.04805",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "BERT",
+      "ref_snippet": "# BERT: Pre-training of Deep Bidirec",
+      "latency_ms": 344
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.14165",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "GPT-3",
+      "ref_snippet": "cifically, we train GPT-3, an autoregressive language m",
+      "latency_ms": 324
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.08774",
+      "tier": 1,
+      "category": "arxiv",
+      "probe": "GPT-4",
+      "ref_snippet": "# GPT-4 Technical Report arXiv.org ht",
+      "latency_ms": 1417
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+      "tier": 1,
+      "category": "mdn",
+      "probe": "map",
+      "ref_snippet": "ing parseInt() with map(); removed: Side-effectful ma",
+      "latency_ms": 388
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type",
+      "tier": 1,
+      "category": "mdn",
+      "probe": "Content-Type",
+      "ref_snippet": "# Content-Type header - HTTP | MDN 2026-03-0",
+      "latency_ms": 353
+    },
+    {
+      "url": "https://docs.python.org/3/library/http.server.html",
+      "tier": 1,
+      "category": "pythondocs",
+      "probe": "HTTPServer",
+      "ref_snippet": "mation. One class, HTTPServer, is a socketserver.TCPServer",
+      "latency_ms": 332
+    },
+    {
+      "url": "https://docs.python.org/3/library/json.html",
+      "tier": 1,
+      "category": "pythondocs",
+      "probe": "json",
+      "ref_snippet": "# json \u2014 JSON encoder and decoder Py",
+      "latency_ms": 448
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2616",
+      "tier": 1,
+      "category": "rfc",
+      "probe": "Hypertext Transfer Protocol",
+      "ref_snippet": "# RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1 | RFC Editor http",
+      "latency_ms": 822
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc793",
+      "tier": 1,
+      "category": "rfc",
+      "probe": "Transmission Control Protocol",
+      "ref_snippet": "# RFC 793: Transmission Control Protocol | RFC Editor https://www.rfc-",
+      "latency_ms": 689
+    },
+    {
+      "url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+      "tier": 1,
+      "category": "gov",
+      "probe": "Space Station",
+      "ref_snippet": "# International Space Station - NASA NASA https://www.nasa.",
+      "latency_ms": 1025
+    },
+    {
+      "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "sorted array",
+      "ref_snippet": "nal processing of a sorted array faster than of an unsorted ar",
+      "latency_ms": 5151
+    },
+    {
+      "url": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python",
+      "tier": 2,
+      "category": "stackoverflow",
+      "probe": "yield",
+      "ref_snippet": "# What does the \"yield\" keyword do in Python? **Q \u00b7",
+      "latency_ms": 1802
+    },
+    {
+      "url": "https://github.com/rust-lang/rust",
+      "tier": 2,
+      "category": "github",
+      "probe": "Rust",
+      "ref_snippet": "# GitHub - rust-lang/rust: Empowering everyon",
+      "latency_ms": 1218
+    },
+    {
+      "url": "https://github.com/torvalds/linux",
+      "tier": 2,
+      "category": "github",
+      "probe": "Linux",
+      "ref_snippet": "# GitHub - torvalds/linux: Linux kernel source tree Git",
+      "latency_ms": 1114
+    },
+    {
+      "url": "https://github.com/microsoft/vscode",
+      "tier": 2,
+      "category": "github",
+      "probe": "Visual Studio Code",
+      "ref_snippet": "- microsoft/vscode: Visual Studio Code GitHub https://github.com/mic",
+      "latency_ms": 1079
+    },
+    {
+      "url": "https://github.com/python/cpython",
+      "tier": 2,
+      "category": "github",
+      "probe": "Python",
+      "ref_snippet": "# GitHub - python/cpython: The Python programmi",
+      "latency_ms": 1252
+    },
+    {
+      "url": "https://www.npmjs.com/package/react",
+      "tier": 2,
+      "category": "npm",
+      "probe": "React",
+      "ref_snippet": "# react 19.2.8 React is a JavaScript",
+      "latency_ms": 6092
+    },
+    {
+      "url": "https://www.npmjs.com/package/express",
+      "tier": 2,
+      "category": "npm",
+      "probe": "Express",
+      "ref_snippet": "# express 5.2.1 Fast, unopinionated, mi",
+      "latency_ms": 582
+    },
+    {
+      "url": "https://www.npmjs.com/package/typescript",
+      "tier": 2,
+      "category": "npm",
+      "probe": "TypeScript",
+      "ref_snippet": "# typescript 7.0.2 TypeScript is a languag",
+      "latency_ms": 1178
+    },
+    {
+      "url": "https://pypi.org/project/requests/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "Requests",
+      "ref_snippet": "# requests 2.34.2 Python HTTP for Humans",
+      "latency_ms": 367
+    },
+    {
+      "url": "https://pypi.org/project/numpy/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "NumPy",
+      "ref_snippet": "# numpy 2.5.2 Fundamental package for",
+      "latency_ms": 484
+    },
+    {
+      "url": "https://pypi.org/project/django/",
+      "tier": 2,
+      "category": "pypi",
+      "probe": "Django",
+      "ref_snippet": "# Django 6.1 A high-level Python web f",
+      "latency_ms": 405
+    },
+    {
+      "url": "https://crates.io/crates/tokio",
+      "tier": 2,
+      "category": "crates",
+      "probe": "Tokio",
+      "ref_snippet": "# tokio 1.53.1 An event-driven, non-b",
+      "latency_ms": 1502
+    },
+    {
+      "url": "https://crates.io/crates/serde",
+      "tier": 2,
+      "category": "crates",
+      "probe": "Serde",
+      "ref_snippet": "# serde 1.0.229 A generic serializati",
+      "latency_ms": 1606
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/stripe",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Stripe",
+      "ref_snippet": "# Stripe - Crunchbase Company Profile",
+      "latency_ms": 613
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/google",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Google",
+      "ref_snippet": "# Google - Crunchbase Company Profile",
+      "latency_ms": 9237
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/airbnb",
+      "tier": 3,
+      "category": "perimeterx",
+      "probe": "Airbnb",
+      "ref_snippet": "# Airbnb - Crunchbase Company Profile",
+      "latency_ms": 596
+    },
+    {
+      "url": "https://www.kayak.com/flights",
+      "tier": 3,
+      "category": "akamai",
+      "probe": "flight",
+      "ref_snippet": "# Cheap Flights, Airline Tickets & Airfare D",
+      "latency_ms": 6415
+    },
+    {
+      "url": "https://www.leboncoin.fr/",
+      "tier": 3,
+      "category": "datadome",
+      "probe": "leboncoin",
+      "ref_snippet": "# leboncoin, site de petites annonces gra",
+      "latency_ms": 1184
+    },
+    {
+      "url": "https://www.gov.uk/browse/benefits",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "benefits",
+      "ref_snippet": "# Benefits - GOV.UK https://www.gov.uk/",
+      "latency_ms": 1225
+    },
+    {
+      "url": "https://www.bitdefender.com/",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Bitdefender",
+      "ref_snippet": "# Bitdefender - Global Leader in Cybersecur",
+      "latency_ms": 1388
+    },
+    {
+      "url": "https://discord.com/safety",
+      "tier": 3,
+      "category": "cloudflare",
+      "probe": "Discord",
+      "ref_snippet": "# Discord Safety Center https://discor",
+      "latency_ms": 581
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://stackoverflow.com/questions/9273580/how-do-i-undo-the-most-recent-local-commits-in-git",
+      "tier": 2,
+      "category": "stackoverflow",
+      "reason": "probe not found"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/5000648/what-is-the-difference-between-call-and-apply",
+      "tier": 2,
+      "category": "stackoverflow",
+      "reason": "probe not found"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/50th-anniversary-apollo-11-moon-landing-photos/",
+      "tier": 3,
+      "category": "cloudflare",
+      "reason": "probe not found"
+    },
+    {
+      "url": "https://meta.discourse.org/t/what-is-discourse/2345",
+      "tier": 3,
+      "category": "cloudflare",
+      "reason": "probe not found"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=1",
+      "tier": 3,
+      "category": "cloudflare",
+      "reason": "probe not found"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/apple-airpods-pro-2nd-generation-with-usb-c-white/6455988.p",
+      "tier": 3,
+      "category": "akamai",
+      "reason": "probe not found"
+    }
+  ]
+}
